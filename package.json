@@ -2,10 +2,14 @@
   "name": "second_trial",
   "version": "1.0.0",
   "description": "It is the second time to initilizing the setup in professional ways",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "\u001b[6~"
+    "dev": "nodemon src/index.js"
   },
   "author": "Hassan Qazy",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
